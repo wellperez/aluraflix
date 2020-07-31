@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Button = styled.button`
-  
+background-color: Transparent;
 color: var(--white);
 border: 1px solid var(--white);
 box-sizing: border-box;
@@ -16,8 +16,8 @@ text-decoration: none;
 display: inline-block;
 transition: opacity .3s;
 
-&:hover,
-&:focus {
+
+&:hover{
   opacity: .5;
 }
 `;

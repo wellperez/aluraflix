@@ -93,7 +93,7 @@ function CadastroCategoria() {
           </label>
         </div> */}
 
-        <Button as="a" className="ButtonLink">
+        <Button>
           Cadastrar
         </Button>
       </form>
